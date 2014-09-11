@@ -1,0 +1,133 @@
+/* colour styles : custom  */
+  body  { background:#fff;  font-size:12px; line-height:20px;  font-family: 'PT Sans', sans-serif; color: #333;   }
+  #wrap { width:100%;margin: 0;}
+  /*#wrap { width:94%; margin-left:3%;}*/
+  
+/* font styles */	
+  h1, h2, h4 {cursor: default;text-align: center;}
+  h1  { font-size:36px; line-height:41px; color:#fff; padding:0px; margin:0px; font-weight:bold; margin-bottom:5px; margin-top:5px;font-family: 'PT Sans', sans-serif; }
+  h2  { font-size:36px; line-height:36px; color:#333; padding:0px; margin:0px; font-weight:normal; margin:50px 0 50px 0;font-family: 'Raleway', sans-serif;text-transform: uppercase;}
+  h3  { font-size:20px; line-height:25px; color:#fff; padding:0px; margin:0px; font-weight:normal; font-family: 'Raleway', sans-serif; text-transform: uppercase; }
+  h4  { font-size:20px; line-height:25px; color:#666; padding:0px; margin:10px 0 10px 0px; font-weight:normal; font-family: 'Raleway', sans-serif;text-transform: uppercase; } 
+  h5  { font-size:13px; line-height:22px; color:#f00; padding:0px; margin:0px; font-weight:normal; font-family: 'PT Sans', sans-serif; }
+  h6  { font-size:12px; line-height:22px; color:#f00; padding:0px; margin:0px; font-weight:normal; font-family: 'PT Sans', sans-serif; } 
+  p   { font-size:14px; color:#333; line-height:22px; margin:0 0 30px 0; padding:0px; padding-top:8px; padding-bottom:8px;font-family: 'PT Sans', sans-serif; }
+  p a:link    {color:#FC697C; text-decoration: none;} 
+  p a:visited   {color:#FC697C; text-decoration: none;}
+  p a:hover     {color:#333; text-decoration: none;border-bottom: dotted 1px #333;}
+  p a:active    {color:#FC697C; text-decoration: none;}
+  p a:focus     {outline-style: none;}    
+
+/* list Styles */
+  ul 	{ padding:0px; margin:0; margin-left:0px; font-family:'Helvetica',Arial, Helvetica, sans-serif; margin-top:10px;   }
+  ul li { font-size:12px; color:#858585; padding-left:10px; margin-bottom:7px; list-style:inside; list-style-type:square;}
+  ol 	{ padding:0px; margin:0; margin-left:25px; font-family:'Helvetica',Arial, Helvetica, sans-serif; margin-top:10px;   }
+  ol li { font-size:12px; color:#858585; padding-left:10px; margin-bottom:7px;  list-style-type: decimal; }
+  hr 	{ background:url(../images/hr.jpg) top center no-repeat; border:0; outline:0; clear:both; height:10px;}
+	
+/* link styles */	
+  a:link 		{color:#FC697C; text-decoration: none;} 
+  a:visited 	{color:#FC697C; text-decoration: none;}
+  a:hover 		{color:#333; text-decoration: none;}
+  a:active 		{color:#FC697C; text-decoration: none;}
+  a:focus 		{outline-style: none;}  	
+	
+/* header nav styles */ 
+  #header { background: url(../images/tunisia-pb.jpg) center center no-repeat fixed #000; width:100%;height:400px;position: relative;}
+  #logo {height: 400px;width: 100%;}
+  #logo h1 {font-family: 'Pacifico', cursive; font-size:70px;color:#EC2A32; padding:140px 0 30px 0; margin:0; font-weight:bold; text-align: center;}
+  #logo p {text-align: center;font-size: 24px;color: #000;font-family: 'Raleway', sans-serif;text-transform: uppercase;}
+  #logo .social {margin: 0 auto;text-align: center;}
+  #logo .social a {text-align: center;font-size: 18px;color: #000;font-family: 'Raleway', sans-serif;text-transform: uppercase; }
+  #logo .social a:hover {color: #fff;}
+  #nav {width:100%;background:#EB414E;height:57px; overflow:hidden;text-transform: uppercase;position: fixed;z-index: 2;text-align: center;}
+  #nav ul {list-style: none; height:57px;  margin:0 auto; padding:0px; clear:both;width: 550px;}
+  #nav ul li {display: inline-block;  font-size: 12px;text-align: center;height: 57px;width: 100px;margin: 0;padding: 0;}
+  #nav ul li a {display:block;text-decoration:none;color: #fff;line-height: 57px;font-weight: bold;font-family: 'Raleway', sans-serif; }
+  #nav ul li a:hover, #nav ul li.current-menu-item {background: #000;-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transition: all 0.2s linear;-ms-transition: all 0.2s linear;transition: all 0.2s linear;}
+
+  .home  #header { background: none; width:100%;height:400px;position: relative;}
+  .home {position: relative;background: url(../images/tunisia-pb.jpg) center top no-repeat #000; background-size: cover; }
+  .home #logo  {height: 400px;width: 100%;position: relative;}
+  .home #logo h1  {font-family: 'Pacifico', cursive; font-size:70px;color:#EC2A32; padding:160px 0 30px 0; margin:0; font-weight:bold; text-align: center; }
+  .home #logo p {text-align: center;font-size: 24px;color: #000;font-family: 'Raleway', sans-serif;text-transform: uppercase;}
+
+/* footer styles */
+  #footer-area          { width:100%; display:inline; float:left; padding-top:10px; margin-top:20px; clear:both; background:url(../images/light/bg-row.png) top left  repeat-x; }
+  #footer-area .widget 			{ width:310px; margin-right:10px; padding-top:15px; display:inline; float:left; font-size:12px; color:#454545; line-height:18px; font-family:'Helvetica',Arial, Helvetica, sans-serif;  }
+  #footer-area .widget h3 		{ color:#858585;}
+  #footer-area .widget p    	{ color:#000;}
+  #footer-area .widget ul   	{ margin-left:0px;}
+  #footer-area .widget li   	{ color:#858585; }
+  #footer-area .widget a 		{ color:#444444;}
+  #footer-area .widget a:hover  { color:#000;}
+  #footer-area .widget-copy 	{ width:280px; overflow:hidden; display:inline; float:left; margin-left:10px;} 
+
+/* copyright styles */ 
+  #copyright { clear:both; width:100%; height:80px;display:block; margin:20px 0 0 0;border-top: 1px solid #ccc;text-align: center;font-family: 'Raleway', sans-serif;text-transform: uppercase;background: url(../images/tunisia-pb.jpg) center center fixed no-repeat #fff;}
+  #copyright p { padding-top:15px; color:#fff; font-size:12px;cursor: default;}
+  .home #copyright { clear:both; width:100%;display:block; margin:0;border-top: none;position: fixed;bottom: 0px; height:40px!important;background: transparent;cursor: default;}
+  .home #copyright p { padding:5px; color:#fff; font-size:12px; }
+  #copyright a 	{color:#858585;	text-decoration: none;} 
+  #copyright a:hover 	{color:#000000; text-decoration: underline;}
+ 
+ 
+/* post and page styles */ 
+  #type-single {position: relative;width: 100%;text-align: center;}
+  .type-post        { width:940px; display: block; margin:0 auto;padding: 0; }
+  .type-page        { width:940px; display: block; margin:0 auto;text-align: center; }
+  .category-portfolio {background: #111;}
+  #cat-wrap        { width:940px; display: block; margin:0 auto;position: relative;overflow: hidden;background: #111;height: auto;}
+  #cat-wrap p, #cat-wrap h2 {color:#fff;text-align: center;}
+  #cat-wrap h2 a, #cat-wrap h2 a:active, #cat-wrap h2 a:visited  {font-size:36px; line-height:36px; color:#EC2A32; padding:20px; margin:0px; font-weight:normal; font-family: 'Raleway', sans-serif;text-transform: uppercase;}
+  #cat-wrap h2 a:hover  { color: #333; }
+  .type-attachment 			{ width:940px; background:#FFF; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; margin-right:10px; margin-top:15px; display:inline; float:left; }
+  .gridly-image 			{ z-index:5; }
+  .gridly-category 			{ position:absolute; width:auto; background:#EC2A32; margin-top:-35px; z-index:10;  height:30px; overflow:hidden;}
+  .gridly-category p 		{ margin:0; padding:0; line-height:30px; padding-left:20px; padding-right:40px; color:#fff; font-style:italic;   }
+  .gridly-category a 		{ color:#fff; font-style:italic;}
+  .gridly-category a:hover  { color:#555;}
+  .gridly-copy 				{ width:940px; margin: 0 auto; overflow:hidden;padding-top:0px;   }
+  .gridly-date 				{ width:150px;  color:#8e8e8e; font-size:11px;}
+  .size-full 				{ width:100%; height:inherit;}
+  a.topo {display: block;text-align: center;margin: 0 auto;width: 200px;} 
+
+/* post index styles */ 
+  #post-area .post        { width:300px; background:#fff ; margin:15px 5px 0 5px; position:relative; text-align: center;overflow: hidden;} /*F3DEC3*/
+  #post-area .post a { color: #333;/* color: #EB414E;*/}
+  #post-area .post a:hover { color: #EC2A32;}
+  #post-area .post .gridly-copy 		{ width:250px; margin:0 auto; overflow:hidden; clear:both;padding: 10px 0 10px 0;}
+  #post-area .post .gridly-date 		{ width:150px;  color:#8e8e8e; font-size:11px;  border-bottom:1px dotted #cccccc; padding-bottom:0; padding-top:0; }
+  #post-area .post .gridly-link 		{ width:100%;  color:#494e51;text-align: center;margin: 0;}
+
+/* single post nav styles */ 
+  .post-nav {width:35px; height: 35px; display:block;}
+  .post-next a 		 { background:url(../images/btn-left.png) top left no-repeat; height:50px; width:50px; display:block; /*float:left;*/ text-indent:-9999px;position: fixed;top:50%;left: 10px; }
+  .post-next a:hover { background:url(../images/btn-left.png) top right no-repeat; height:50px; width:50px;}
+  .post-prev a 		 { background:url(../images/btn-right.png) top left no-repeat; height:50px; width:50px; display:block; /*float:left; clear:both;*/ text-indent:-9999px;position: fixed; top:50%;right: 10px;}
+  .post-prev a:hover { background:url(../images/btn-right.png) top right no-repeat; height:50px; width:50px;}
+
+/* comment styles */
+  .comments-area ol { list-style:none; margin:0; padding:0;  border-bottom:1px solid #8e8e8e; }
+  .comments-area li { list-style:none; margin:0; padding:0; border-top:1px solid #8e8e8e; width:100%; clear:both; display:inline; float:left; margin-bottom:10px; padding:10px;  } 
+  .avatar 			{ display:none;} 
+  .reply 			{ display:none;}
+  .comment-meta  	{ display:none;}
+  .comment-author 	{ font-size:16px; font-weight:bold; font-family: 'Droid Sans', sans-serif; }
+  #comment-form 	{ width:50%; }
+  .text-input 		{ clear:both; border:1px solid #8e8e8e; margin-bottom:5px; width:90%; padding:7px; font-family:Arial, Helvetica, sans-serif; color:#555; font-size:12px;  }
+  .comment-input  	{ clear:both; border:1px solid #8e8e8e; margin-bottom:5px; width:90%; padding:7px; font-family:Arial, Helvetica, sans-serif; color:#555; font-size:12px;  } 
+  .comment-submit 	{ clear:both; width:120px; height:30px; line-height:25px; background:#e5e5e5; border:1px solid #8e8e8e;   }
+
+/* Additional and WordPress styles */
+  .clear 			{ clear:both;}
+  .aligncenter	 	{ display: block; margin: 0 auto; }
+  .alignleft		{ float: left; margin-right:20px; margin-top:20px; margin-bottom:10px; }
+  .alignright		{ float: right; margin: 0 0 20px 20px; }
+  .wp-caption		{  text-align: left; margin-top:5px; margin-bottom:5px; }
+  .wp-caption-text  { margin-top:2px;  text-align:left; font-style:italic;  font-size:11px; color:#999; } 
+  .sticky    		{}
+  .gallery-caption  {} 
+  .bypostauthor  	{}
+  blockquote 		{ font-size:2em; line-height:23px; color:#000; margin-left:20px; border-left: 1px dotted #999; padding-left:25px; margin-top:15px; margin-bottom:15px; }
+/* end of css file */
