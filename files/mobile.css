@@ -10,7 +10,7 @@
   #logo p.social a {text-align: center;font-size: 18px;color: #000;font-family: 'Raleway', sans-serif;text-transform: uppercase; display: inline-block; }
   #logo p.social a:hover {color: #fff;}
 
-  #nav { width:100%; background:#EB414E; height:auto; font-family: 'Raleway', sans-serif;text-transform: uppercase;position: relative;}
+  #nav { width:100%; background:rgba(175, 175, 175, 0.52); height:auto; font-family: 'Raleway', sans-serif;text-transform: uppercase;position: relative;}
   #nav ul {list-style: none; height:auto;  margin:0 auto; padding:0px; clear:both;width: 100%;}
   #nav ul li {display: inline-block;  font-size: 10px;text-align: center;height: 50px;margin: 0;padding: 0;width: 23%;}
   #nav ul li a {display:block;text-decoration:none;line-height: 50px; }
